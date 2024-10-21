@@ -4,13 +4,8 @@ name: Build project
 
 on:
   push:
-    branches:
-      - master
     tags:
       - "*"
-  pull_request:
-    branches:
-      - master
 
 jobs:
   build:
